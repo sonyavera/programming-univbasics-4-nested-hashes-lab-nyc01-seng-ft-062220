@@ -80,7 +80,7 @@ def adding_matz
         :languages => ["C"]
       }
     }
-programmer_hash
+programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
 end
 
 def changing_alan
